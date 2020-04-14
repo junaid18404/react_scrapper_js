@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Scrapper from "./components/scrapper";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends React.Component {
+    state = {
+        show: false
+    };
+
+    render() {
+        return (
+            <div className="App container">
+                <header>
+                    <h1>TODO App</h1>
+                </header>
+                <div>
+                    <button className='btn btn-info btn-lg hide' onClick={this.getStarted}>Let get started</button>
+                    {this.state.show ? <Scrapper/> : null};
+                </div>
+            </div>
+        );
+    }
+
+    getStarted = () => {
+        this.setState({show: true});
+        console.log(this.state.show);
+    };
 }
-
-export default App;
