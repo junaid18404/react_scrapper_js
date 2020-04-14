@@ -26,8 +26,13 @@ export default class Scrapper extends React.Component {
 
     formatData = (data) => {
         const allPostsRawData = data['data']['data']['children'];
-        const allPostsData = allPostsRawData.map((postRawData) =>
-            postRawData['data']);
+        const allPostsData = allPostsRawData.map((postRawData) => {
+            return {
+                title: postRawData.data.title,
+                url: postRawData.data.url,
+                author: postRawData.data.author,
+            }
+        });
         this.setState({
             tableData: allPostsData,
             showTable: true
