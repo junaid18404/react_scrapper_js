@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f479b207-f722-4ae2-8f71-b047da9d73fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/scrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/scrapper.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1586773385962</updated>
       <workItem from="1586773387316" duration="9174000" />
-      <workItem from="1586849489097" duration="1875000" />
+      <workItem from="1586849489097" duration="2482000" />
+      <workItem from="1586932236523" duration="251000" />
     </task>
     <task id="LOCAL-00001" summary="Created a basic data scrapper app which scraps from reddit and displays in the table.">
       <created>1586850528764</created>
@@ -82,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586850528764</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Using only needed data instead of whole data object.">
+      <created>1586852379243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586852379243</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,28 +100,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created a basic data scrapper app which scraps from reddit and displays in the table." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a basic data scrapper app which scraps from reddit and displays in the table." />
+    <MESSAGE value="Using only needed data instead of whole data object." />
+    <option name="LAST_COMMIT_MESSAGE" value="Using only needed data instead of whole data object." />
   </component>
   <component name="WindowStateProjectService">
     <state x="475" y="271" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1586779008346">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state x="475" y="271" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.23.1680.945@0.23.1680.945" timestamp="1586779008346" />
-    <state x="410" y="23" key="CommitChangelistDialog2" timestamp="1586850528439">
+    <state x="410" y="23" key="CommitChangelistDialog2" timestamp="1586937798993">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
-    <state x="410" y="23" key="CommitChangelistDialog2/0.23.1680.945@0.23.1680.945" timestamp="1586850528439" />
-    <state x="168" y="106" key="DiffContextDialog" timestamp="1586850277761">
+    <state x="410" y="23" key="CommitChangelistDialog2/0.23.1680.945@0.23.1680.945" timestamp="1586937798993" />
+    <state x="168" y="106" key="DiffContextDialog" timestamp="1586852334554">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
-    <state x="168" y="106" key="DiffContextDialog/0.23.1680.945@0.23.1680.945" timestamp="1586850277761" />
+    <state x="168" y="106" key="DiffContextDialog/0.23.1680.945@0.23.1680.945" timestamp="1586852334554" />
     <state x="341" y="134" key="SettingsEditor" timestamp="1586850993903">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state x="341" y="134" key="SettingsEditor/0.23.1680.945@0.23.1680.945" timestamp="1586850993903" />
-    <state x="440" y="217" key="Vcs.Push.Dialog.v2" timestamp="1586850998882">
+    <state x="440" y="217" key="Vcs.Push.Dialog.v2" timestamp="1586852380750">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
-    <state x="440" y="217" key="Vcs.Push.Dialog.v2/0.23.1680.945@0.23.1680.945" timestamp="1586850998882" />
+    <state x="440" y="217" key="Vcs.Push.Dialog.v2/0.23.1680.945@0.23.1680.945" timestamp="1586852380750" />
+    <state x="488" y="236" width="703" height="518" key="find.popup" timestamp="1586937804047">
+      <screen x="0" y="23" width="1680" height="945" />
+    </state>
+    <state x="488" y="236" width="703" height="518" key="find.popup/0.23.1680.945@0.23.1680.945" timestamp="1586937804047" />
   </component>
 </project>

@@ -23,6 +23,5 @@ export default class App extends React.Component {
 
     getStarted = () => {
         this.setState({show: true});
-        console.log(this.state.show);
     };
 }
