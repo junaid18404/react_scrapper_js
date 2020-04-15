@@ -20,8 +20,7 @@ export default class Scrapper extends React.Component {
     }
 
     fetchData = async () => {
-        console.log(await new newsServices().getAllNewsData());
-        this.formatData(await new newsServices().getAllNewsData());
+        this.formatData(await new newsServices().getNewsData());
     };
 
     formatData = (data) => {
